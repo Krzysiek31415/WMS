@@ -1,5 +1,5 @@
 add_library(${PROJECT_NAME}_core STATIC 
-            domain/dummy.cpp
+            domain/LocationID.cpp
 )
 
 target_include_directories(${PROJECT_NAME}_core PUBLIC
