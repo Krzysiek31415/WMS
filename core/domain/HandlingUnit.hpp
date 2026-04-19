@@ -33,6 +33,7 @@ private:
     std::optional<ProductQuantity> quantity_;
     std::optional<LocationID> locationID_;
     
+    //std::vector<Product>
     //void ensureState(HandlingUnitState expected);
     //HandlingUnitState state_;
 };

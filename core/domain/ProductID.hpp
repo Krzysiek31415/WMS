@@ -8,6 +8,9 @@ public:
     const std::string& value() const {
         return value_;
     }
+    bool operator ==(ProductID id){
+        return id.value() == value_;
+    }
 private:
     std::string value_;
 };
